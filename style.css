@@ -23,7 +23,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
-  background: #00a8c7;
+  background: black;
   justify-content: space-between;
 }
 nav ul {
@@ -41,4 +41,28 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+
+footer {
+  position: fixed;
+width: 100%;
+  text-align: center;
+  bottom: 0;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+@font-face {
+  font-family: goldman;
+  src: url(Goldman-Bold.ttf);
+}
+
+@font-face {
+  font-family: goldman;
+  src: url(Goldman-Regular.ttf);
+}
+p, h1, h2, h3, a{
+  font-family: goldman; 
+  text-align: center;
 }
