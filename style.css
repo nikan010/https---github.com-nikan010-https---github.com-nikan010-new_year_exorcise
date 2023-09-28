@@ -10,21 +10,31 @@ html {
  h1, h2, h3, p, a, ul{
   color: white;
   text-align: center; 
-}
+  font-size: 24px;
+  }
 body {
   font-family: "Goldman", cursive;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  min-height: 100hv;
+  position: relative;
 }
 
-nav {
-  display: flex;
-  width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  background: black;
-  justify-content: space-between;
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: black;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  
 }
 nav ul {
   display: flex;
@@ -47,6 +57,7 @@ nav img {
 footer {
   position: fixed;
 width: 100%;
+
   text-align: center;
   bottom: 0;
   padding: 15px;
@@ -65,4 +76,11 @@ width: 100%;
 p, h1, h2, h3, a{
   font-family: goldman; 
   text-align: center;
+}
+article {
+  border: 5px solid #3498db; 
+  border-radius: 55px; 
+  padding: 15px; 
+  margin: 15px; 
+  border-left: 10px solid #e74c3c; 
 }
